@@ -1,4 +1,4 @@
-package com.example.produits.service;
+package com.moulouk.produits.service;
 
 import java.util.List;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -6,8 +6,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.PageRequest;
 import org.springframework.stereotype.Service;
 
-import com.example.produits.entities.Produit;
-import com.example.produits.repos.ProduitRepository;
+import com.moulouk.produits.entities.Produit;
+import com.moulouk.produits.repos.ProduitRepository;
 
 @Service
 public class ProduitServiceImpl implements ProduitService {

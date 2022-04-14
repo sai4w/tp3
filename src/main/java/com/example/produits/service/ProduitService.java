@@ -1,10 +1,10 @@
-package com.example.produits.service;
+package com.moulouk.produits.service;
 
 import java.util.List;
 
 import org.springframework.data.domain.Page;
 
-import com.example.produits.entities.Produit;
+import com.moulouk.produits.entities.Produit;
 
 public interface ProduitService {
 
