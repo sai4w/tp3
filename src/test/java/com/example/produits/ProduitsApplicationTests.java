@@ -1,4 +1,4 @@
-package com.moulouk.produits;
+package com.example.produits;
 
 import java.util.Date;
 import java.util.List;
@@ -8,9 +8,9 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.data.domain.Page;
 
-import com.moulouk.produits.entities.Produit;
-import com.moulouk.produits.repos.ProduitRepository;
-import com.moulouk.produits.service.ProduitService;
+import com.example.produits.entities.Produit;
+import com.example.produits.repos.ProduitRepository;
+import com.example.produits.service.ProduitService;
 
 @SpringBootTest
 class ProduitsApplicationTests {

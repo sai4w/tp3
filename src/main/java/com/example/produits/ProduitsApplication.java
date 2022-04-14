@@ -2,13 +2,13 @@ package com.example.produits;
 
 import java.util.Date;
 
+import com.example.produits.entities.Produit;
+import com.example.produits.service.ProduitService;
+
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-
-import com.example.produits.entities.Produit;
-import com.example.produits.service.ProduitService;
 
 @SpringBootApplication
 public class ProduitsApplication implements CommandLineRunner {
